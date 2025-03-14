@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/lab_9/divisor_8_4/division.xst" -ofn "C:/Users/Asus/Desktop/lab_9/divisor_8_4/division.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 division.ngc division.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o division_map.ncd division.ngd division.pcf 
+par -w -intstyle ise -ol high -mt off division_map.ncd division.ncd division.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml division.twx division.ncd -o division.twr division.pcf 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/lab_9/divisor_8_4/division.xst" -ofn "C:/Users/Asus/Desktop/lab_9/divisor_8_4/division.syr" 
+netgen -intstyle ise -ar Structure -tm division -w -dir netgen/synthesis -ofmt vhdl -sim division.ngc division_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 division.ngc division.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o division_map.ncd division.ngd division.pcf 
+par -w -intstyle ise -ol high -mt off division_map.ncd division.ncd division.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml division.twx division.ncd -o division.twr division.pcf 
