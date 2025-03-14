@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_ovelap/moore_1010.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_ovelap/moore_1010.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_ovelap/moore_1010.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_ovelap/moore_1010.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 moore_1010.ngc moore_1010.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o moore_1010_map.ncd moore_1010.ngd moore_1010.pcf 
+par -w -intstyle ise -ol high -mt off moore_1010_map.ncd moore_1010.ncd moore_1010.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml moore_1010.twx moore_1010.ncd -o moore_1010.twr moore_1010.pcf 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_ovelap/moore_1010.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_ovelap/moore_1010.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 moore_1010.ngc moore_1010.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o moore_1010_map.ncd moore_1010.ngd moore_1010.pcf 
+par -w -intstyle ise -ol high -mt off moore_1010_map.ncd moore_1010.ncd moore_1010.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml moore_1010.twx moore_1010.ncd -o moore_1010.twr moore_1010.pcf 

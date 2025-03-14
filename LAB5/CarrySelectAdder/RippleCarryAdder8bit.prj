@@ -1,0 +1,6 @@
+vhdl work "XORGate.vhd"
+vhdl work "ANDGate.vhd"
+vhdl work "ORGate.vhd"
+vhdl work "HalfAdder.vhd"
+vhdl work "FullAdder.vhd"
+vhdl work "RippleCarryAdder8bit.vhd"

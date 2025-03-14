@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/teatbanch_Moore_NonOver1010.vhd" Line 86: &lt;<arg fmt="%s" index="1">reset</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/teatbanch_Moore_NonOver1010.vhd" Line 88: &lt;<arg fmt="%s" index="1">reset</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/teatbanch_Moore_NonOver1010.vhd" Line 90: &lt;<arg fmt="%s" index="1">data_in</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/teatbanch_Moore_NonOver1010.vhd" Line 92: &lt;<arg fmt="%s" index="1">data_in</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/teatbanch_Moore_NonOver1010.vhd" Line 94: &lt;<arg fmt="%s" index="1">data_in</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/teatbanch_Moore_NonOver1010.vhd" Line 96: &lt;<arg fmt="%s" index="1">data_in</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/teatbanch_Moore_NonOver1010.vhd" Line 98: &lt;<arg fmt="%s" index="1">data_in</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/teatbanch_Moore_NonOver1010.vhd" Line 100: &lt;<arg fmt="%s" index="1">data_in</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/teatbanch_Moore_NonOver1010.vhd" Line 102: &lt;<arg fmt="%s" index="1">data_in</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/teatbanch_Moore_NonOver1010.vhd" Line 104: &lt;<arg fmt="%s" index="1">data_in</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/teatbanch_Moore_NonOver1010.vhd" Line 38: Unit &lt;<arg fmt="%s" index="1">behavior</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

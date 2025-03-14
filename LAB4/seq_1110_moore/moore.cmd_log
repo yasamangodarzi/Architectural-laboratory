@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 moore.ngc moore.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o moore_map.ncd moore.ngd moore.pcf 
+par -w -intstyle ise -ol high -mt off moore_map.ncd moore.ncd moore.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml moore.twx moore.ncd -o moore.twr moore.pcf 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 moore.ngc moore.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o moore_map.ncd moore.ngd moore.pcf 
+par -w -intstyle ise -ol high -mt off moore_map.ncd moore.ncd moore.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml moore.twx moore.ncd -o moore.twr moore.pcf 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1110_moore/moore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 moore.ngc moore.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o moore_map.ncd moore.ngd moore.pcf 
+par -w -intstyle ise -ol high -mt off moore_map.ncd moore.ncd moore.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml moore.twx moore.ncd -o moore.twr moore.pcf 

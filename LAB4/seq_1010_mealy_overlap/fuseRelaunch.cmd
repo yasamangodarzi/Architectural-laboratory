@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Asus/Desktop/LAB_4/seq_1010_mealy_overlap/TestBench_mealy_Over1010_isim_beh.exe" -prj "C:/Users/Asus/Desktop/LAB_4/seq_1010_mealy_overlap/TestBench_mealy_Over1010_beh.prj" "work.TestBench_mealy_Over1010" 

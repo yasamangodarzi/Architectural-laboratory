@@ -1,0 +1,2 @@
+vhdl isim_temp "Mealy_NonOver1010.vhd"
+vhdl isim_temp "TestBench_Mealy_NonOver1010.vhd"

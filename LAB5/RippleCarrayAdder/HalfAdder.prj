@@ -1,0 +1,3 @@
+vhdl work "XOR_gate.vhd"
+vhdl work "AND_gate.vhd"
+vhdl work "HalfAdder.vhd"

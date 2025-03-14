@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\Users\Asus\Desktop\LAB_4\seq_1010_moore_ovelap\moore_1010.vhd" Line 57: <arg fmt="%s" index="1">data_in</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\Users\Asus\Desktop\LAB_4\seq_1010_moore_ovelap\moore_1010.vhd" Line 63: <arg fmt="%s" index="1">data_in</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\Users\Asus\Desktop\LAB_4\seq_1010_moore_ovelap\moore_1010.vhd" Line 69: <arg fmt="%s" index="1">data_in</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\Users\Asus\Desktop\LAB_4\seq_1010_moore_ovelap\moore_1010.vhd" Line 75: <arg fmt="%s" index="1">data_in</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\Users\Asus\Desktop\LAB_4\seq_1010_moore_ovelap\moore_1010.vhd" Line 81: <arg fmt="%s" index="1">data_in</arg> should be on the sensitivity list of the process
+</msg>
+
+</messages>
+

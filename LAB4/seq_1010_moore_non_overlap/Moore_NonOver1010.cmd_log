@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/Moore_NonOver1010.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/Moore_NonOver1010.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 Moore_NonOver1010.ngc Moore_NonOver1010.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Moore_NonOver1010_map.ncd Moore_NonOver1010.ngd Moore_NonOver1010.pcf 
+par -w -intstyle ise -ol high -mt off Moore_NonOver1010_map.ncd Moore_NonOver1010.ncd Moore_NonOver1010.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Moore_NonOver1010.twx Moore_NonOver1010.ncd -o Moore_NonOver1010.twr Moore_NonOver1010.pcf 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/Moore_NonOver1010.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/Moore_NonOver1010.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/Moore_NonOver1010.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1010_moore_overlap/Moore_NonOver1010.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 Moore_NonOver1010.ngc Moore_NonOver1010.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Moore_NonOver1010_map.ncd Moore_NonOver1010.ngd Moore_NonOver1010.pcf 
+par -w -intstyle ise -ol high -mt off Moore_NonOver1010_map.ncd Moore_NonOver1010.ncd Moore_NonOver1010.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Moore_NonOver1010.twx Moore_NonOver1010.ncd -o Moore_NonOver1010.twr Moore_NonOver1010.pcf 

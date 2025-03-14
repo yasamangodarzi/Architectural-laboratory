@@ -1,0 +1,2 @@
+vhdl work "Mealy_NonOver1010.vhd"
+vhdl work "TestBench_Mealy_NonOver1010.vhd"

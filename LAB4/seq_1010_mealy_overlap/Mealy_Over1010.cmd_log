@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/LAB_4/seq_1010_mealy_overlap/Mealy_Over1010.xst" -ofn "C:/Users/Asus/Desktop/LAB_4/seq_1010_mealy_overlap/Mealy_Over1010.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 Mealy_Over1010.ngc Mealy_Over1010.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mealy_Over1010_map.ncd Mealy_Over1010.ngd Mealy_Over1010.pcf 
+par -w -intstyle ise -ol high -mt off Mealy_Over1010_map.ncd Mealy_Over1010.ncd Mealy_Over1010.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Mealy_Over1010.twx Mealy_Over1010.ncd -o Mealy_Over1010.twr Mealy_Over1010.pcf 
