@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/controller</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Asus/Desktop/lab7/universal/controller.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/controller.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/controller/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Asus/Desktop/lab7/universal/controller.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/controller.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Dflipflop</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Asus/Desktop/lab7/universal/Dflipflop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/Dflipflop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Dflipflop/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Asus/Desktop/lab7/universal/Dflipflop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/Dflipflop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mux</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Asus/Desktop/lab7/universal/mux.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/mux.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mux/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Asus/Desktop/lab7/universal/mux.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/mux.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3353" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/mux.vhd</arg>&quot; Line <arg fmt="%d" index="2">66</arg>. <arg fmt="%s" index="3">Architecture Behavioral of mux</arg> is being redefined within the file. Prior definition (on line <arg fmt="%d" index="4">44</arg>) is discarded. (LRM 11.1)
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/controller.vhd</arg>&quot; Line <arg fmt="%d" index="2">64</arg>. <arg fmt="%s" index="3">parse error, unexpected IF</arg>
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/controller.vhd</arg>&quot; Line <arg fmt="%d" index="2">94</arg>. <arg fmt="%s" index="3">parse error, unexpected CLOSEPAR, expecting SEMICOLON</arg>
+</msg>
+
+</messages>
+

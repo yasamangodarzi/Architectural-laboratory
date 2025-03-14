@@ -1,0 +1,5 @@
+AR mux behavioral C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/mux.vhd sub00/vhpl04 1652452374
+EN dflipflop NULL C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/Dflipflop.vhd sub00/vhpl00 1652452375
+AR dflipflop behavioral C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/Dflipflop.vhd sub00/vhpl01 1652452376
+EN mux NULL C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/mux.vhd sub00/vhpl03 1652452372
+EN controller NULL C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/controller.vhd sub00/vhpl02 1652452377

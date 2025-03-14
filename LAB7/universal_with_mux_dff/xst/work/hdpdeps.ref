@@ -1,0 +1,24 @@
+V3 14
+FL C:/Users/Asus/Desktop/lab7/universal/controller.vhd 2022/05/07.06:42:07 P.20131013
+FL C:/Users/Asus/Desktop/lab7/universal/Dflipflop.vhd 2022/05/13.06:43:42 P.20131013
+FL C:/Users/Asus/Desktop/lab7/universal/mux.vhd 2022/05/07.06:04:21 P.20131013
+EN work/controller 0 \
+      FL C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/controller.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/controller/Behavioral 0 \
+      FL C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/controller.vhd \
+      EN work/controller 0 CP mux CP Dflipflop
+FL C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/Dflipflop.vhd 2022/05/13.06:43:42 P.20131013
+EN work/Dflipflop 1652452375 \
+      FL C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/Dflipflop.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Dflipflop/Behavioral 1652452376 \
+      FL C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/Dflipflop.vhd \
+      EN work/Dflipflop 1652452375
+FL C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/mux.vhd 2022/05/07.06:04:21 P.20131013
+EN work/mux 1652452372 \
+      FL C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/mux.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mux/Behavioral 1652452374 \
+      FL C:/Users/Asus/Desktop/lab7/universal_with_mux_dff/mux.vhd EN work/mux 1652452372

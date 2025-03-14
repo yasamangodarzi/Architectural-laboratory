@@ -1,0 +1,3 @@
+vhdl work "mux.vhd"
+vhdl work "Dflipflop.vhd"
+vhdl work "controller.vhd"

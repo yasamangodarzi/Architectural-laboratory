@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/lab7/universal/Dflipflop.xst" -ofn "C:/Users/Asus/Desktop/lab7/universal/Dflipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 Dflipflop.ngc Dflipflop.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Dflipflop_map.ncd Dflipflop.ngd Dflipflop.pcf 
+par -w -intstyle ise -ol high -t 1 Dflipflop_map.ncd Dflipflop.ncd Dflipflop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Dflipflop.twx Dflipflop.ncd -o Dflipflop.twr Dflipflop.pcf 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/lab7/universal/Dflipflop.xst" -ofn "C:/Users/Asus/Desktop/lab7/universal/Dflipflop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 Dflipflop.ngc Dflipflop.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o Dflipflop_map.ncd Dflipflop.ngd Dflipflop.pcf 
+par -w -intstyle ise -ol high -t 1 Dflipflop_map.ncd Dflipflop.ncd Dflipflop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Dflipflop.twx Dflipflop.ncd -o Dflipflop.twr Dflipflop.pcf 
