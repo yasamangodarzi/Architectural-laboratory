@@ -1,0 +1,3 @@
+vhdl isim_temp "T_Flip_Flop.vhd"
+vhdl isim_temp "Ripple_Counter_4_bit.vhd"
+vhdl isim_temp "Test.vhd"

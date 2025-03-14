@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "I:/AZ_memari/main_session2/Decoder2to4/Decoder.xst" -ofn "I:/AZ_memari/main_session2/Decoder2to4/Decoder.syr" 
+xst -intstyle ise -ifn "I:/AZ_memari/main_session2/Decoder2to4/Decoder.xst" -ofn "I:/AZ_memari/main_session2/Decoder2to4/Decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 Decoder.ngc Decoder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Decoder_map.ncd Decoder.ngd Decoder.pcf 
+par -w -intstyle ise -ol high -mt off Decoder_map.ncd Decoder.ncd Decoder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Decoder.twx Decoder.ncd -o Decoder.twr Decoder.pcf 
+xst -intstyle ise -ifn "I:/AZ_memari/main_session2/Decoder2to4/Decoder.xst" -ofn "I:/AZ_memari/main_session2/Decoder2to4/Decoder.syr" 
+xst -intstyle ise -ifn "I:/AZ_memari/main_session2/Decoder2to4/Decoder.xst" -ofn "I:/AZ_memari/main_session2/Decoder2to4/Decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 Decoder.ngc Decoder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Decoder_map.ncd Decoder.ngd Decoder.pcf 
+par -w -intstyle ise -ol high -mt off Decoder_map.ncd Decoder.ncd Decoder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Decoder.twx Decoder.ncd -o Decoder.twr Decoder.pcf 
+xst -intstyle ise -ifn "I:/AZ_memari/main_session2/Decoder2to4/Decoder.xst" -ofn "I:/AZ_memari/main_session2/Decoder2to4/Decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 Decoder.ngc Decoder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Decoder_map.ncd Decoder.ngd Decoder.pcf 
+par -w -intstyle ise -ol high -mt off Decoder_map.ncd Decoder.ncd Decoder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Decoder.twx Decoder.ncd -o Decoder.twr Decoder.pcf 
+xst -intstyle ise -ifn "I:/AZ_memari/main_session2/Decoder2to4/Decoder.xst" -ofn "I:/AZ_memari/main_session2/Decoder2to4/Decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 Decoder.ngc Decoder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Decoder_map.ncd Decoder.ngd Decoder.pcf 
+par -w -intstyle ise -ol high -mt off Decoder_map.ncd Decoder.ncd Decoder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Decoder.twx Decoder.ncd -o Decoder.twr Decoder.pcf 

@@ -1,0 +1,577 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: Ripple_Counter_4_bit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Ripple_Counter_4_bit.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Ripple_Counter_4_bit"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-cpg196
+
+---- Source Options
+Top Module Name                    : Ripple_Counter_4_bit
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Asus\Downloads\session3\New folder\ripple\T_Flip_Flop.vhd" into library work
+Parsing entity <T_Flip_Flop>.
+Parsing architecture <Behavioral> of entity <t_flip_flop>.
+Parsing VHDL file "C:\Users\Asus\Downloads\session3\New folder\ripple\Ripple_Counter_4_bit.vhd" into library work
+Parsing entity <Ripple_Counter_4_bit>.
+Parsing architecture <Behavioral> of entity <ripple_counter_4_bit>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Ripple_Counter_4_bit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <T_Flip_Flop> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Ripple_Counter_4_bit>.
+    Related source file is "C:\Users\Asus\Downloads\session3\New folder\ripple\Ripple_Counter_4_bit.vhd".
+    Summary:
+	no macro.
+Unit <Ripple_Counter_4_bit> synthesized.
+
+Synthesizing Unit <T_Flip_Flop>.
+    Related source file is "C:\Users\Asus\Downloads\session3\New folder\ripple\T_Flip_Flop.vhd".
+    Found 1-bit register for signal <item>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <T_Flip_Flop> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 4
+ 1-bit register                                        : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Ripple_Counter_4_bit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Ripple_Counter_4_bit, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Ripple_Counter_4_bit.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 5
+#      INV                         : 5
+# FlipFlops/Latches                : 4
+#      FDC                         : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 1
+#      OBUF                        : 4
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9cpg196-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               4  out of  11440     0%  
+ Number of Slice LUTs:                    5  out of   5720     0%  
+    Number used as Logic:                 5  out of   5720     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      9
+   Number with an unused Flip Flop:       5  out of      9    55%  
+   Number with an unused LUT:             4  out of      9    44%  
+   Number of fully used LUT-FF pairs:     0  out of      9     0%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    106     5%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+T_2/item                           | NONE(T_3/item)         | 1     |
+T_1/item                           | NONE(T_2/item)         | 1     |
+T_0/item                           | NONE(T_1/item)         | 1     |
+CLOCK                              | BUFGP                  | 1     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 2.300ns (Maximum Frequency: 434.783MHz)
+   Minimum input arrival time before clock: 3.526ns
+   Maximum output required time after clock: 4.202ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'T_2/item'
+  Clock period: 2.260ns (frequency: 442.478MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.260ns (Levels of Logic = 1)
+  Source:            T_3/item (FF)
+  Destination:       T_3/item (FF)
+  Source Clock:      T_2/item rising
+  Destination Clock: T_2/item rising
+
+  Data Path: T_3/item to T_3/item
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.525   0.725  T_3/item (T_3/item)
+     INV:I->O              1   0.255   0.681  T_3/item_INV_4_o1_INV_0 (T_3/item_INV_4_o)
+     FDC:D                     0.074          T_3/item
+    ----------------------------------------
+    Total                      2.260ns (0.854ns logic, 1.406ns route)
+                                       (37.8% logic, 62.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'T_1/item'
+  Clock period: 2.300ns (frequency: 434.783MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.300ns (Levels of Logic = 1)
+  Source:            T_2/item (FF)
+  Destination:       T_2/item (FF)
+  Source Clock:      T_1/item rising
+  Destination Clock: T_1/item rising
+
+  Data Path: T_2/item to T_2/item
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.525   0.765  T_2/item (T_2/item)
+     INV:I->O              1   0.255   0.681  T_2/item_INV_4_o1_INV_0 (T_2/item_INV_4_o)
+     FDC:D                     0.074          T_2/item
+    ----------------------------------------
+    Total                      2.300ns (0.854ns logic, 1.446ns route)
+                                       (37.1% logic, 62.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'T_0/item'
+  Clock period: 2.300ns (frequency: 434.783MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.300ns (Levels of Logic = 1)
+  Source:            T_1/item (FF)
+  Destination:       T_1/item (FF)
+  Source Clock:      T_0/item rising
+  Destination Clock: T_0/item rising
+
+  Data Path: T_1/item to T_1/item
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.525   0.765  T_1/item (T_1/item)
+     INV:I->O              1   0.255   0.681  T_1/item_INV_4_o1_INV_0 (T_1/item_INV_4_o)
+     FDC:D                     0.074          T_1/item
+    ----------------------------------------
+    Total                      2.300ns (0.854ns logic, 1.446ns route)
+                                       (37.1% logic, 62.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK'
+  Clock period: 2.300ns (frequency: 434.783MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.300ns (Levels of Logic = 1)
+  Source:            T_0/item (FF)
+  Destination:       T_0/item (FF)
+  Source Clock:      CLOCK rising
+  Destination Clock: CLOCK rising
+
+  Data Path: T_0/item to T_0/item
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.525   0.765  T_0/item (T_0/item)
+     INV:I->O              1   0.255   0.681  T_0/item_INV_4_o1_INV_0 (T_0/item_INV_4_o)
+     FDC:D                     0.074          T_0/item
+    ----------------------------------------
+    Total                      2.300ns (0.854ns logic, 1.446ns route)
+                                       (37.1% logic, 62.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'T_2/item'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.526ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       T_3/item (FF)
+  Destination Clock: T_2/item rising
+
+  Data Path: reset to T_3/item
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  reset_IBUF (reset_IBUF)
+     INV:I->O              4   0.255   0.803  T_0/reset_inv1_INV_0 (T_0/reset_inv)
+     FDC:CLR                   0.459          T_3/item
+    ----------------------------------------
+    Total                      3.526ns (2.042ns logic, 1.484ns route)
+                                       (57.9% logic, 42.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'T_1/item'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.526ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       T_2/item (FF)
+  Destination Clock: T_1/item rising
+
+  Data Path: reset to T_2/item
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  reset_IBUF (reset_IBUF)
+     INV:I->O              4   0.255   0.803  T_0/reset_inv1_INV_0 (T_0/reset_inv)
+     FDC:CLR                   0.459          T_2/item
+    ----------------------------------------
+    Total                      3.526ns (2.042ns logic, 1.484ns route)
+                                       (57.9% logic, 42.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'T_0/item'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.526ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       T_1/item (FF)
+  Destination Clock: T_0/item rising
+
+  Data Path: reset to T_1/item
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  reset_IBUF (reset_IBUF)
+     INV:I->O              4   0.255   0.803  T_0/reset_inv1_INV_0 (T_0/reset_inv)
+     FDC:CLR                   0.459          T_1/item
+    ----------------------------------------
+    Total                      3.526ns (2.042ns logic, 1.484ns route)
+                                       (57.9% logic, 42.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLOCK'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.526ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       T_0/item (FF)
+  Destination Clock: CLOCK rising
+
+  Data Path: reset to T_0/item
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  reset_IBUF (reset_IBUF)
+     INV:I->O              4   0.255   0.803  T_0/reset_inv1_INV_0 (T_0/reset_inv)
+     FDC:CLR                   0.459          T_0/item
+    ----------------------------------------
+    Total                      3.526ns (2.042ns logic, 1.484ns route)
+                                       (57.9% logic, 42.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'T_2/item'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.162ns (Levels of Logic = 1)
+  Source:            T_3/item (FF)
+  Destination:       Counter<3> (PAD)
+  Source Clock:      T_2/item rising
+
+  Data Path: T_3/item to Counter<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.525   0.725  T_3/item (T_3/item)
+     OBUF:I->O                 2.912          Counter_3_OBUF (Counter<3>)
+    ----------------------------------------
+    Total                      4.162ns (3.437ns logic, 0.725ns route)
+                                       (82.6% logic, 17.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'T_1/item'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.202ns (Levels of Logic = 1)
+  Source:            T_2/item (FF)
+  Destination:       Counter<2> (PAD)
+  Source Clock:      T_1/item rising
+
+  Data Path: T_2/item to Counter<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.525   0.765  T_2/item (T_2/item)
+     OBUF:I->O                 2.912          Counter_2_OBUF (Counter<2>)
+    ----------------------------------------
+    Total                      4.202ns (3.437ns logic, 0.765ns route)
+                                       (81.8% logic, 18.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'T_0/item'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.202ns (Levels of Logic = 1)
+  Source:            T_1/item (FF)
+  Destination:       Counter<1> (PAD)
+  Source Clock:      T_0/item rising
+
+  Data Path: T_1/item to Counter<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.525   0.765  T_1/item (T_1/item)
+     OBUF:I->O                 2.912          Counter_1_OBUF (Counter<1>)
+    ----------------------------------------
+    Total                      4.202ns (3.437ns logic, 0.765ns route)
+                                       (81.8% logic, 18.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.202ns (Levels of Logic = 1)
+  Source:            T_0/item (FF)
+  Destination:       Counter<0> (PAD)
+  Source Clock:      CLOCK rising
+
+  Data Path: T_0/item to Counter<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.525   0.765  T_0/item (T_0/item)
+     OBUF:I->O                 2.912          Counter_0_OBUF (Counter<0>)
+    ----------------------------------------
+    Total                      4.202ns (3.437ns logic, 0.765ns route)
+                                       (81.8% logic, 18.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLOCK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK          |    2.300|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock T_0/item
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+T_0/item       |    2.300|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock T_1/item
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+T_1/item       |    2.300|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock T_2/item
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+T_2/item       |    2.260|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.85 secs
+ 
+--> 
+
+Total memory usage is 4486172 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Asus/Downloads/session3/DFF/DFF/TestBench_DFF_isim_beh.exe" -prj "C:/Users/Asus/Downloads/session3/DFF/DFF/TestBench_DFF_beh.prj" "work.TestBench_DFF" 

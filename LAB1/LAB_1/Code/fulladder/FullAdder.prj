@@ -1,0 +1,5 @@
+vhdl work "XOR_ALU.vhd"
+vhdl work "AND_ALU.vhd"
+vhdl work "OR_ALU.vhd"
+vhdl work "HalfAdder.vhd"
+vhdl work "FullAdder.vhd"

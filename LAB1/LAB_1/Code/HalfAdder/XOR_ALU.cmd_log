@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "I:/AZ_memari/ALU/HalfAdder/XOR_ALU.xst" -ofn "I:/AZ_memari/ALU/HalfAdder/XOR_ALU.syr" 

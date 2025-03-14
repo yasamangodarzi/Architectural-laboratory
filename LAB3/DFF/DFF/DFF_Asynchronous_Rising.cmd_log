@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "I:/AZ_memari/DFF/DFF/DFF_Asynchronous_Rising.xst" -ofn "I:/AZ_memari/DFF/DFF/DFF_Asynchronous_Rising.syr" 
+xst -intstyle ise -ifn "I:/AZ_memari/DFF/DFF/DFF_Asynchronous_Rising.xst" -ofn "I:/AZ_memari/DFF/DFF/DFF_Asynchronous_Rising.syr" 
+xst -intstyle ise -ifn "I:/AZ_memari/DFF/DFF/DFF_Asynchronous_Rising.xst" -ofn "I:/AZ_memari/DFF/DFF/DFF_Asynchronous_Rising.syr" 
+xst -intstyle ise -ifn "I:/AZ_memari/DFF/DFF/DFF_Asynchronous_Rising.xst" -ofn "I:/AZ_memari/DFF/DFF/DFF_Asynchronous_Rising.syr" 
+xst -intstyle ise -ifn "I:/AZ_memari/DFF/DFF/DFF_Asynchronous_Rising.xst" -ofn "I:/AZ_memari/DFF/DFF/DFF_Asynchronous_Rising.syr" 
+xst -intstyle ise -ifn "I:/AZ_memari/DFF/DFF/DFF_Asynchronous_Rising.xst" -ofn "I:/AZ_memari/DFF/DFF/DFF_Asynchronous_Rising.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 DFF_Asynchronous_Rising.ngc DFF_Asynchronous_Rising.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DFF_Asynchronous_Rising_map.ncd DFF_Asynchronous_Rising.ngd DFF_Asynchronous_Rising.pcf 
+par -w -intstyle ise -ol high -mt off DFF_Asynchronous_Rising_map.ncd DFF_Asynchronous_Rising.ncd DFF_Asynchronous_Rising.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml DFF_Asynchronous_Rising.twx DFF_Asynchronous_Rising.ncd -o DFF_Asynchronous_Rising.twr DFF_Asynchronous_Rising.pcf 

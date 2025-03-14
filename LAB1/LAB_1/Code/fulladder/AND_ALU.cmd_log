@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "I:/AZ_memari/ALU/ALU/AND_ALU.xst" -ofn "I:/AZ_memari/ALU/ALU/AND_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 AND_ALU.ngc AND_ALU.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o AND_ALU_map.ncd AND_ALU.ngd AND_ALU.pcf 
+par -w -intstyle ise -ol high -mt off AND_ALU_map.ncd AND_ALU.ncd AND_ALU.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml AND_ALU.twx AND_ALU.ncd -o AND_ALU.twr AND_ALU.pcf 
+xst -intstyle ise -ifn "I:/AZ_memari/ALU/ALU/AND_ALU.xst" -ofn "I:/AZ_memari/ALU/ALU/AND_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 AND_ALU.ngc AND_ALU.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o AND_ALU_map.ncd AND_ALU.ngd AND_ALU.pcf 
+par -w -intstyle ise -ol high -mt off AND_ALU_map.ncd AND_ALU.ncd AND_ALU.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml AND_ALU.twx AND_ALU.ncd -o AND_ALU.twr AND_ALU.pcf 
+xst -intstyle ise -ifn "I:/AZ_memari/ALU/ALU/AND_ALU.xst" -ofn "I:/AZ_memari/ALU/ALU/AND_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 AND_ALU.ngc AND_ALU.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o AND_ALU_map.ncd AND_ALU.ngd AND_ALU.pcf 
+par -w -intstyle ise -ol high -mt off AND_ALU_map.ncd AND_ALU.ncd AND_ALU.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml AND_ALU.twx AND_ALU.ncd -o AND_ALU.twr AND_ALU.pcf 
+xst -intstyle ise -ifn "I:/AZ_memari/ALU/ALU/AND_ALU.xst" -ofn "I:/AZ_memari/ALU/ALU/AND_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 AND_ALU.ngc AND_ALU.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o AND_ALU_map.ncd AND_ALU.ngd AND_ALU.pcf 
+par -w -intstyle ise -ol high -mt off AND_ALU_map.ncd AND_ALU.ncd AND_ALU.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml AND_ALU.twx AND_ALU.ncd -o AND_ALU.twr AND_ALU.pcf 
+xst -intstyle ise -ifn "I:/AZ_memari/ALU/ALU/AND_ALU.xst" -ofn "I:/AZ_memari/ALU/ALU/AND_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 AND_ALU.ngc AND_ALU.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o AND_ALU_map.ncd AND_ALU.ngd AND_ALU.pcf 
+par -w -intstyle ise -ol high -mt off AND_ALU_map.ncd AND_ALU.ncd AND_ALU.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml AND_ALU.twx AND_ALU.ncd -o AND_ALU.twr AND_ALU.pcf 
+xst -intstyle ise -ifn "I:/AZ_memari/ALU/ALU/AND_ALU.xst" -ofn "I:/AZ_memari/ALU/ALU/AND_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 AND_ALU.ngc AND_ALU.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o AND_ALU_map.ncd AND_ALU.ngd AND_ALU.pcf 
+par -w -intstyle ise -ol high -mt off AND_ALU_map.ncd AND_ALU.ncd AND_ALU.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml AND_ALU.twx AND_ALU.ncd -o AND_ALU.twr AND_ALU.pcf 

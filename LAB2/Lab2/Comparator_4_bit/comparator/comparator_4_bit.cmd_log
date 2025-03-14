@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/memarie/part2/Comparator_4_bit/comparator/comparator_4_bit.xst" -ofn "C:/Users/Asus/Desktop/memarie/part2/Comparator_4_bit/comparator/comparator_4_bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Asus/Desktop/memarie/part2/Comparator_4_bit/comparator/comparator_4_bit.xst" -ofn "C:/Users/Asus/Desktop/memarie/part2/Comparator_4_bit/comparator/comparator_4_bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 comparator_4_bit.ngc comparator_4_bit.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o comparator_4_bit_map.ncd comparator_4_bit.ngd comparator_4_bit.pcf 
+par -w -intstyle ise -ol high -mt off comparator_4_bit_map.ncd comparator_4_bit.ncd comparator_4_bit.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml comparator_4_bit.twx comparator_4_bit.ncd -o comparator_4_bit.twr comparator_4_bit.pcf 
