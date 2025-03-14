@@ -1,0 +1,40 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/testBenchMultiplicand_8bit_isim_beh.exe -prj C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/testBenchMultiplicand_8bit_beh.prj work.testBenchMultiplicand_8bit 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/Nand3.vhd" into library work
+Parsing VHDL file "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/Nand2.vhd" into library work
+Parsing VHDL file "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/FullAdder.vhd" into library work
+Parsing VHDL file "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/DFlipFlop.vhd" into library work
+Parsing VHDL file "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/ripple_carry_adder_new.vhd" into library work
+Parsing VHDL file "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/Product_16bit.vhd" into library work
+Parsing VHDL file "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/Multiplicand_register_8bit.vhd" into library work
+Parsing VHDL file "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/Controller_unit.vhd" into library work
+Parsing VHDL file "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/Multiplier.vhd" into library work
+Parsing VHDL file "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/testBenchMultiplicand_8bit.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture strucural of entity FullAdder [fulladder_default]
+Compiling architecture struc of entity ripple_carry_adder_new [ripple_carry_adder_new_default]
+Compiling architecture rtl of entity Controller_unit [controller_unit_default]
+Compiling architecture strucural of entity Nand2 [nand2_default]
+Compiling architecture strucural of entity Nand3 [nand3_default]
+Compiling architecture strucural of entity DFlipFlop [dflipflop_default]
+Compiling architecture structural of entity Multiplicand_register_8bit [multiplicand_register_8bit_defau...]
+Compiling architecture rtl of entity Product_16bit [product_16bit_default]
+Compiling architecture rtl of entity Multiplier [multiplier_default]
+Compiling architecture behavior of entity testbenchmultiplicand_8bit
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 26 VHDL Units
+Built simulation executable C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/testBenchMultiplicand_8bit_isim_beh.exe
+Fuse Memory Usage: 38272 KB
+Fuse CPU Usage: 514 ms

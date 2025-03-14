@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/testBenchMultiplicand_8bit_isim_beh.exe" -prj "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/testBenchMultiplicand_8bit_beh.prj" "work.testBenchMultiplicand_8bit" 

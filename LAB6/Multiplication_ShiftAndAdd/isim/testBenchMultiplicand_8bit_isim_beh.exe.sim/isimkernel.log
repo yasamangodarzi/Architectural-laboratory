@@ -1,0 +1,28 @@
+Command line:
+   testBenchMultiplicand_8bit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56004
+
+Thu May 05 09:53:01 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5154.46 Meg
+
+ Total Signals          : 310
+ Total Nets             : 143
+ Total Signal Drivers   : 89
+ Total Blocks           : 100
+ Total Primitive Blocks : 64
+ Total Processes        : 85
+ Total Traceable Variables  : 34
+ Total Scalar Nets and Variables : 1181
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 4682.6 Meg
+
+Thu May 05 09:56:02 2022
+

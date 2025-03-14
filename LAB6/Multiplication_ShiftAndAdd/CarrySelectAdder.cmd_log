@@ -1,0 +1,76 @@
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/sadr system/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 "CarrySelectAdder.ngc" CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.xst" -ofn "C:/Users/Asus/Downloads/AZ6/Multiplication_ShiftAndAdd/CarrySelectAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-cpg196-2 CarrySelectAdder.ngc CarrySelectAdder.ngd  
+map -intstyle ise -p xc6slx9-cpg196-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CarrySelectAdder_map.ncd CarrySelectAdder.ngd CarrySelectAdder.pcf 
+par -w -intstyle ise -ol high -mt off CarrySelectAdder_map.ncd CarrySelectAdder.ncd CarrySelectAdder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o CarrySelectAdder.twr CarrySelectAdder.pcf 

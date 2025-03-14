@@ -1,0 +1,140 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml CarrySelectAdder.twx CarrySelectAdder.ncd -o
+CarrySelectAdder.twr CarrySelectAdder.pcf
+
+Design file:              CarrySelectAdder.ncd
+Physical constraint file: CarrySelectAdder.pcf
+Device,package,speed:     xc6slx9,cpg196,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+in_1<0>        |Add_out<0>     |    8.427|
+in_1<0>        |Add_out<1>     |    8.504|
+in_1<0>        |Add_out<2>     |    8.184|
+in_1<0>        |Add_out<3>     |    9.735|
+in_1<0>        |Add_out<4>     |   10.251|
+in_1<0>        |Add_out<5>     |   11.496|
+in_1<0>        |Add_out<6>     |   11.446|
+in_1<0>        |Add_out<7>     |   11.725|
+in_1<0>        |C_out          |   10.413|
+in_1<1>        |Add_out<1>     |    8.508|
+in_1<1>        |Add_out<2>     |    8.711|
+in_1<1>        |Add_out<3>     |   10.140|
+in_1<1>        |Add_out<4>     |   10.656|
+in_1<1>        |Add_out<5>     |   11.901|
+in_1<1>        |Add_out<6>     |   11.851|
+in_1<1>        |Add_out<7>     |   12.130|
+in_1<1>        |C_out          |   10.818|
+in_1<2>        |Add_out<2>     |    8.599|
+in_1<2>        |Add_out<3>     |   10.517|
+in_1<2>        |Add_out<4>     |   11.033|
+in_1<2>        |Add_out<5>     |   12.278|
+in_1<2>        |Add_out<6>     |   12.228|
+in_1<2>        |Add_out<7>     |   12.507|
+in_1<2>        |C_out          |   11.195|
+in_1<3>        |Add_out<3>     |    9.839|
+in_1<3>        |Add_out<4>     |    9.444|
+in_1<3>        |Add_out<5>     |   10.689|
+in_1<3>        |Add_out<6>     |   10.639|
+in_1<3>        |Add_out<7>     |   11.829|
+in_1<3>        |C_out          |   10.517|
+in_1<4>        |Add_out<4>     |    9.461|
+in_1<4>        |Add_out<5>     |   10.706|
+in_1<4>        |Add_out<6>     |   10.656|
+in_1<4>        |Add_out<7>     |   10.644|
+in_1<4>        |C_out          |    9.394|
+in_1<5>        |Add_out<5>     |   11.007|
+in_1<5>        |Add_out<6>     |   10.715|
+in_1<5>        |Add_out<7>     |   12.558|
+in_1<5>        |C_out          |   10.682|
+in_1<6>        |Add_out<6>     |   10.007|
+in_1<6>        |Add_out<7>     |   11.586|
+in_1<6>        |C_out          |    9.974|
+in_1<7>        |Add_out<7>     |   11.368|
+in_1<7>        |C_out          |   10.064|
+in_2<0>        |Add_out<0>     |    8.879|
+in_2<0>        |Add_out<1>     |    8.956|
+in_2<0>        |Add_out<2>     |    9.028|
+in_2<0>        |Add_out<3>     |   10.817|
+in_2<0>        |Add_out<4>     |   11.333|
+in_2<0>        |Add_out<5>     |   12.578|
+in_2<0>        |Add_out<6>     |   12.528|
+in_2<0>        |Add_out<7>     |   12.807|
+in_2<0>        |C_out          |   11.495|
+in_2<1>        |Add_out<1>     |    9.233|
+in_2<1>        |Add_out<2>     |    8.644|
+in_2<1>        |Add_out<3>     |   10.711|
+in_2<1>        |Add_out<4>     |   11.227|
+in_2<1>        |Add_out<5>     |   12.472|
+in_2<1>        |Add_out<6>     |   12.422|
+in_2<1>        |Add_out<7>     |   12.701|
+in_2<1>        |C_out          |   11.389|
+in_2<2>        |Add_out<2>     |    8.182|
+in_2<2>        |Add_out<3>     |   10.164|
+in_2<2>        |Add_out<4>     |   10.680|
+in_2<2>        |Add_out<5>     |   11.925|
+in_2<2>        |Add_out<6>     |   11.875|
+in_2<2>        |Add_out<7>     |   12.154|
+in_2<2>        |C_out          |   10.842|
+in_2<3>        |Add_out<3>     |   10.116|
+in_2<3>        |Add_out<4>     |   10.140|
+in_2<3>        |Add_out<5>     |   11.385|
+in_2<3>        |Add_out<6>     |   11.335|
+in_2<3>        |Add_out<7>     |   12.106|
+in_2<3>        |C_out          |   10.794|
+in_2<4>        |Add_out<4>     |    9.970|
+in_2<4>        |Add_out<5>     |   11.215|
+in_2<4>        |Add_out<6>     |   11.165|
+in_2<4>        |Add_out<7>     |   10.778|
+in_2<4>        |C_out          |   10.340|
+in_2<5>        |Add_out<5>     |   10.270|
+in_2<5>        |Add_out<6>     |   10.481|
+in_2<5>        |Add_out<7>     |   12.060|
+in_2<5>        |C_out          |   10.448|
+in_2<6>        |Add_out<6>     |   10.777|
+in_2<6>        |Add_out<7>     |   12.356|
+in_2<6>        |C_out          |   10.744|
+in_2<7>        |Add_out<7>     |   10.419|
+in_2<7>        |C_out          |    9.197|
+---------------+---------------+---------+
+
+
+Analysis completed Thu May 05 08:33:22 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+
