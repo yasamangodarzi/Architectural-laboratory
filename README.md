@@ -59,7 +59,9 @@ This repository contains **VHDL implementations** of various digital circuits de
 
 ---
 
-## How to Use  
-1. Clone the repository:  
-   ```sh
-   git clone https://github.com/your-username/your-repository.git
+## How to Use
+
+1. Clone the repository.
+2. Navigate to the respective session folder.
+3. Run the VHDL files using a suitable simulator.
+4. Verify the outputs using testbenches.
